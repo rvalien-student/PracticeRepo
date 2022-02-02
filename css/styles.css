@@ -1,0 +1,89 @@
+/* resets */
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	outline-style: none;
+}
+
+/* end resets */
+
+body {
+	background-color: rgb(180, 178, 178);
+	font-size: 1.2rem;
+	height: 100%;
+	margin: 8px auto;
+	width: 80%;
+	min-width: 30rem;
+}
+
+header {
+	background-color: lightgray;
+	border: 2px solid;
+	margin: 0 auto;
+	height: 100%;
+}
+
+header h1 {
+	border: 1px solid;
+	text-align: center;
+	margin: auto;
+}
+
+#elevatorPitches {
+	background-color: lightgray;
+	border: 1px solid;
+	margin: 1rem auto;
+}
+
+.container {
+	margin: 2rem auto;
+}
+
+#elevatorPitches h3 {
+	border-bottom: 2px solid black;
+	font-weight: 600;
+	margin: 1rem auto;
+	text-align: center;
+	width: 40%;
+}
+
+.elevatorPitch {
+	/*border: 1px solid red;*/
+	line-height: 1.3rem;
+	margin: 1rem;
+}
+
+.keyWord {
+	font-weight: bold;
+	font-size: 120%;
+	font-style: italic;
+}
+
+footer {
+	border: 1px solid;
+	background-color: lightgray;
+	margin: 0 auto;
+	font-size: 1.1rem;
+}
+
+footer .contact {
+	margin: 1rem;
+}
+
+footer h3 {
+	font-weight: 600;
+	margin-bottom: .5rem;
+}
+
+footer p {
+	line-height: 1.3rem;
+}
+
+footer ul {
+	margin-left: 1.2rem;
+}
